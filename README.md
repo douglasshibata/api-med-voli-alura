@@ -11,3 +11,12 @@ API Rest desenvolvida na aula Spring boot 3 Desenvolva Api Rest Java da alura
 ### Dependências
 * Spring Boot Starter Web
 * Lombok
+* Mysql
+* Spring JPA
+* flyway
+* Validation
+
+### Rodando BD com Docker
+```bash
+docker run -d --name medi-voli-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=vollmed_api -e MYSQL_USER=test -e MYSQL_PASSWORD=test mysql:5.7
+```
