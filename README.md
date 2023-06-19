@@ -15,6 +15,7 @@ API Rest desenvolvida na aula Spring boot 3 Desenvolva Api Rest Java da alura
 * Spring JPA
 * flyway
 * Validation
+* Spring security
 
 ### Rodando BD com Docker
 ```bash
